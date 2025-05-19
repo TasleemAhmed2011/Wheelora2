@@ -1,0 +1,244 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif; /* Updated to Roboto for body text */
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif; /* Stylish serif font for headings */
+  margin: 0;
+  color: #00bfa5; /* Teal color for headings */
+}
+
+a {
+  text-decoration: none;
+  color: #03a9f4; /* Bright link color */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #29b6f6; /* Slightly lighter hover color */
+}
+
+/* Header Styles */
+header {
+  background-color: #1f1f1f; /* Darker header background */
+  color: #00bfa5; /* Teal color for header text */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00bfa5; /* Teal border */
+  font-family: 'Montserrat', sans-serif; /* Modern sans-serif font for header */
+}
+
+header h2 {
+  margin-bottom: 10px;
+}
+
+header p {
+  margin: 5px 0;
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+/* Navigation Bar */
+.topnav {
+  background: linear-gradient(90deg, #0d0d0d, #1a1a1a); /* Darker gradient background */
+  overflow: hidden;
+  border-bottom: 2px solid #00bfa5; /* Teal border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+  font-family: 'Playfair Display', serif; /* Stylish serif font for navigation */
+  color: #e0e0e0; /* Light text color */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the links horizontally */
+  align-items: center; /* Center the links vertically */
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #e0e0e0; /* Light text color for better contrast */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Playfair Display', serif; /* Stylish serif font for navigation */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.topnav a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle semi-transparent hover effect */
+  color: #00bfa5; /* Teal text on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.topnav a.active {
+  background-color: #00bfa5; /* Active link background */
+  color: #121212; /* Dark text for contrast */
+  font-weight: bold; /* Bold text for active link */
+  border-radius: 4px; /* Rounded corners for active link */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark content background */
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Darker shadow */
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif; /* Consistent body font */
+}
+
+main h3 {
+  margin-top: 20px;
+  color: #00bfa5; /* Teal color for subheadings */
+  font-family: 'Playfair Display', serif; /* Stylish serif font for subheadings */
+}
+
+main ul, main ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+main ul li, main ol li {
+  margin-bottom: 10px;
+}
+
+.slogan {
+  font-style: italic;
+  color: #bdbdbd; /* Subtle text color */
+  font-family: 'Montserrat', sans-serif; /* Modern sans-serif font for slogans */
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: #1f1f1f; /* Dark footer background */
+  color: #e0e0e0; /* Light text color */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #00bfa5; /* Teal border */
+  font-family: 'Roboto', sans-serif; /* Consistent body font */
+}
+
+.site-footer a {
+  color: #03a9f4; /* Bright link color */
+}
+
+.site-footer a:hover {
+  color: #29b6f6; /* Slightly lighter hover color */
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  color: #03a9f4; /* Bright social media link color */
+  margin: 0 5px;
+}
+
+.social-media a:hover {
+  color: #29b6f6; /* Slightly lighter hover color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  main {
+    margin: 10px;
+    padding: 15px;
+  }
+}
+.search-section {
+  text-align: center;
+  margin: 30px auto;
+}
+
+
+.company-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding: 20px;
+}
+
+.company {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.site-footer {
+  background: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.site-footer a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.car-card {
+    
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 800px;
+    }
+
+    .car-card h2 {
+      margin-top: 0;
+      color: #00bfa5;;
+    }
+
+    .car-card ul {
+      padding-left: 20px;
+    }
+
+    .car-card strong {
+      color: #555;
+    }
+
+    .back-btn {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .back-btn a {
+    
+      
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
